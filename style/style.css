@@ -1,0 +1,565 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  max-width: 1588px;
+  margin: 0 auto;
+  direction: rtl;
+}
+
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.logo_position {
+  margin-left: 150px;
+}
+
+.header_sasco_credo,
+.header_content,
+.header_text_saudi {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header_sasco_credo {
+  font-size: 15px;
+  line-height: 16px;
+  color: #4faba8;
+  margin-right: 10px;
+}
+
+.header_content {
+  font-size: 8px;
+  color: #55575b;
+  padding-left: 4px;
+}
+
+.header_text_saudi {
+  color: #55575b;
+  font-size: 9px;
+  width: auto;
+}
+
+.header_text_profile {
+  font-family: 'Neo Sans Arabic Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: #55575b;
+  margin-left: 250px;
+}
+
+button {
+  border: none;
+  background: none;
+  position: relative;
+
+}
+
+nav {
+  position: absolute;
+  top: 32px;
+  left: -1px;
+  visibility: hidden;
+  background-color: #55575b;
+  z-index: 9;
+  width: 288px;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu_button {
+  border: 1px solid transparent;
+  padding: 8px;
+}
+
+.menu_button:HOVER nav {
+  visibility: visible;
+}
+
+.menu_button:HOVER {
+  border: 1px solid #55575b;
+}
+        
+.navigation_links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.navigation_links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 20px;
+  display: block;
+  font-family: 'Neo Sans Arabic Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+
+}
+.navigation_links a:HOVER {
+  color: #8efefe;
+}
+
+
+
+/* General style */
+
+a {
+  text-decoration: none;
+}
+
+b {
+  font-family: 'Neo Sans Arabic Medium';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+
+p {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  width: 217px;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+h3 {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  width: 216px;
+  hyphens: auto;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+h4 {
+  font-family: 'Neo Sans Arabic Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 31px;
+  width: 218px;
+}
+
+.section_margin {
+  margin: 20px 16px auto 10px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.margin_center {
+  margin: 0 auto;
+}
+
+.wrap_images_center {
+  justify-content: center;
+  gap: 50px;
+}
+
+.last_column_padding {
+  padding-right: 30px;
+}
+
+.responsive_img {
+  display: block;
+  max-width: 100%;
+}
+
+.margin_tables {
+  margin-right: 26px;
+  margin-left: 12px;
+}
+
+
+
+/* Article config */
+
+.photo_config {
+  display: block;
+  margin-left: 20px;
+  max-width: 100%;
+}
+
+.main_title {
+  background-color: #4DA6A5;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-radius: 0 82px 82px 0;
+  margin-right: 24px;
+  padding-right: 32px;
+  margin-bottom: 70px;
+}
+
+.main_title_b {
+  font-size: 53px;
+  line-height: 61px;
+  color: white;
+}
+
+.main_title_l {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 61px;
+  color: white;
+}
+
+.main_title_size {
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.wrap {
+  display: flex;
+  position: relative;
+}
+
+.columns {
+  -webkit-columns: 200px 3;
+  -webkit-column-gap: 20px;
+  -moz-columns: 200px 3;
+  -moz-column-gap: 20px;
+  columns: 200px 3;
+  column-gap: 20px;
+}
+
+.article {
+  width: 216px;
+  hyphens: auto;
+}
+
+
+.block_between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h3_position {
+  margin-top: 0px;
+  margin-bottom: 120px;
+}
+
+
+
+/* Home page */
+
+.ltr {
+  direction: ltr;
+}
+
+.background_one { 
+  background-image: url("../images/1p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 1263px 68px;
+  background-size: 174px;
+  position: relative;
+}
+
+.first_image{
+  border-top-right-radius: 500%;
+  border-bottom-right-radius: 500%;
+  position: relative;
+}
+
+.position_overlap {
+  position: relative;
+}
+
+.title {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  width: 578px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  text-align: right;
+}
+
+.introduction {
+  font-family: 'Neo Sans Arabic Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #4DA6A5;
+  width: 182px;
+  margin-left: 48px;
+  margin-right: 0px;
+  box-sizing: border-box;
+  padding-top: 356px;
+  text-align: right;
+}
+
+
+
+
+/* 2 page - History */
+
+.history_title {
+  visibility: hidden;
+}
+
+
+
+
+/* Page 3 - Chairman’s Foreword */
+
+.background_three {
+  background-image: url("../images/3p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 134px 480px;
+  background-size: 140px;
+  position: relative;
+}
+
+.subtitle_three_position {
+  padding-bottom: 18px;
+}
+
+.subtitle_three {
+  color: #f7d74a;
+  width: 218px;
+  hyphens: auto;
+}
+
+.chair_bold_sentence {
+  color: #4DA6A5;
+}
+
+.h4_chairman {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: justify;
+}
+
+.break_inside {
+  -webkit-column-break-inside: avoid;
+}
+
+.paragraph_align {
+  text-align: justify;
+}
+
+.chair_sign_position{
+  padding-bottom: 20px;
+}
+        
+
+
+
+/* Page 4 - Managing Director’s Message */
+
+.background_four {
+  background-image: url("../images/4p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 134px 428px;
+  background-size: 140px;
+  position: relative;
+}
+
+.subtitle_four_position {
+  padding-bottom: 42px;
+}
+
+.subtitle_four {
+  color: #8cb93b;
+  width: 218px;
+  hyphens: auto;
+  line-height: 17px;
+}
+
+.h3_director {
+  font-size: 40px;
+  line-height: 46px;
+  padding-bottom: 224px;
+}
+
+.img_position_four {
+  padding-top: 58px;
+}
+
+.h4_director {
+  padding-bottom: 20px;
+}
+
+
+
+
+/* Page 5 - CEO’s Statement */
+
+.background_five {
+  background-image: url("../images/5p_quotes.png");
+  background-repeat: no-repeat;
+  background-position: 138px 494px;
+  background-size: 140px;
+  position: relative;
+}
+
+.h3_ceo {
+  font-size: 31px;
+  line-height: 35px;
+  padding-bottom: 30px;
+}
+
+.subtitle_five_position {
+  margin-bottom: 40px;
+}
+
+.subtitle_five {
+  color: #ce3d2f;
+  line-height: 17px;
+}
+
+.paragraph_bottom p {
+  padding-bottom: 10px;
+}
+
+
+
+
+/* Page 6 - SASCO Strategic Plan */
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 30px;
+}
+
+.title_six {
+  font-size: 21px;
+  width: 175px;
+  line-height: 25px;
+}
+
+.bottom_text_six {
+  width: 175px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.h4_ceo {
+  padding-bottom: 30px;
+}
+
+
+/* Page 7 - CFO: The Year in Review */
+
+.h3_seven_config {
+  width: 230px;
+  font-size: 33px;
+  line-height: 38px;
+  padding-bottom: 30px;
+}
+
+.subtitle_seven_text_align {
+  text-align: justify;
+}
+
+.subtitle_seven {
+  color: #8cb93b;
+  font-size: 19px;
+  line-height: 21px;
+}
+
+.mohammed_img {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.cfo_bold_sentence {
+  color: #8cb93b
+}
+
+.cfo_sign_position {
+  padding-top: 64px;
+}
+
+
+
+
+
+
+
+/* Page 10 - CFO: The Year in Review (continued) */
+.padd_top_tenth {
+  padding-top: 40px;
+}
+
+
+
+
+/* Page 11 - CFO: The Year in Review (continued) */
+.last_image_config {
+  margin: 38px 46px auto 0;
+}
+
+.last_title_config {
+  margin-bottom: 0px;
+}
+
+.main_title_eleven {
+  background-color: #4DA6A5;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-radius: 0 82px 82px 0;
+  margin-right: 24px;
+  padding-right: 32px;
+  margin-bottom: 0px;
+}
+
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: #55575b;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.foot_regular {
+  font-family: 'Neo Sans Arabic Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+}
+
+.foot_light {
+  font-family: 'Neo Sans Arabic Light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+}
+
